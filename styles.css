@@ -1,13 +1,21 @@
+.success{
+     display: none;
+     margin-left: 10px;
+ }
+
 .error{
-    display: none;
-    margin-left: 10px;
-}
-.error_show{
     color: red;
     margin-left: 10px;
 }
-input.invalid, text.invalid{
+
+.init{
+    display: none;
+    margin-left: 10px;
+}
+
+input.invalid{
     border: 2px solid red;
 }
-input.valid, text.valid{
+
+input.valid{
 }

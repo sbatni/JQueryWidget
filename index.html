@@ -41,26 +41,26 @@
         <p><h2> Add/Update Item</h2></p>
         <form novalidate data-part="form">
             <div>
-                <input type="hidden" name="prodid">
+                <input type="hidden" name="id">
             </div>
             <div>
                 Item Name<br>
                 <input type="text" name="name">
-                <span name="error" class="error">This field is required</span>
+                <span name="error" class="init">Name is required</span>
             </div>
             <div>
                 Sku<br>
                 <input type="text" name="sku">
-                <span name="error" class="error">This field is required/Duplicate sku</span>
+                <span name="error" class="init">Sku is required and has to be unique</span>
             </div>
             <div>
                 Price<br>
                 <input type="text" name="price">
-                <span name="error" class="error">This field is required and has to be a number</span>
+                <span name="error" class="init">Price is required and has to be a positive number</span>
             </div>
             <br><br>
             <div>
-                <button name="save">Save</button>
+                <button name="save" disabled>Save</button>
             </div>
         </form>
     </div>
