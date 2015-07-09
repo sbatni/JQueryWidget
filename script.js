@@ -2,6 +2,7 @@
  * Created by sbatni on 5/29/2015.
  */
 $(function() {
+
   var widget = $('#prodManagement').prodWidget();
 
   $('[name=save]').click(function(event) {
